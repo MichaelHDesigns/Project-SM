@@ -296,7 +296,7 @@ small.text-muted {
 <!--LOGIN-->
 
 
-* {
+<!-- * {
     margin: 0px;
     padding: 0;
     outline: none;
@@ -437,4 +437,4 @@ form.minimal label {
             -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1), 0 0 8px rgb(248,66,66);
             -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1), 0 0 8px rgb(248,66,66);
               box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1), 0 0 8px rgb(248,66,66);
-        }
+        } -->
