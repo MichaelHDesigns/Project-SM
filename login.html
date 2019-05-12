@@ -115,22 +115,19 @@
     </form>
 </section>
 
-<script>
+
 		
-var username = document.getElementById('username').value;
-	
-if(username == "abcdef123@#$"){
-   //Email will be parsed as String.
-   //Redirect to the next page.
-
-
-
-return window.location.href='https://devilking6105.github.io/Project-SM/index.html';
-}
-else{
-   alert('Wrong Username!');
-}
-
+ <script>
+      function checkPassword(){
+       if(document.getElementById('password').value == 'hello'){
+        alert('Correct Password!'); 
+          location.href = "https://devilking6105.github.io/Project-SM/index.html";
+         } else {
+         alert('Wrong Password!');
+          return false;
+        }
+       }
+      
 </script>
 						
 </body>
